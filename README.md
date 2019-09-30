@@ -1,3 +1,3 @@
-Simulador de procesos de CPU , utilizando el algoritmo de Round Robin
+Simulador de procesos de CPU , utilizando diferentes algoritmos de procesos
 
-Java Netbeans 8.2
+
