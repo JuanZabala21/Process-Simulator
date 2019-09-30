@@ -26,7 +26,7 @@ public class Procesar extends javax.swing.JFrame {
         jTIngreso.setBackground(Color.CYAN);
         jTIngreso.setForeground(Color.blue);
         jTFinal.setBackground(Color.GREEN);
-        //jTFinal.setBackground(Color.red);
+        jTFinal.setBackground(Color.red);
         jTFCapturaQuantum.grabFocus();
     }
     @SuppressWarnings("unchecked")
