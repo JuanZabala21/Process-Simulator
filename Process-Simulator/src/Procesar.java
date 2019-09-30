@@ -296,11 +296,11 @@ public class Procesar extends javax.swing.JFrame {
 
     private void jBAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAgregarActionPerformed
         
-        if((Integer.parseInt(jTFCapturaRafaga.getText()))<=100){
+        if((Integer.parseInt(jTFCapturaRafaga.getText()))<=50){
             Ingresar();
-            jTFCapturaQuantum.setEditable(false);
+            jTFCapturaQuantum.setEditable(true);
         }else{
-            JOptionPane.showMessageDialog(null, "Las Rafagas no pueden ser mayores de 100");
+            JOptionPane.showMessageDialog(null, "Las Rafagas no pueden ser mayores de 50");
             jTFCapturaRafaga.setText(null);
             jTFCapturaRafaga.grabFocus();  
         }
